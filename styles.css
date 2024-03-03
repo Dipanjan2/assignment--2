@@ -48,6 +48,10 @@
         font-weight: 800;
         line-height: normal;
       }
+
+      .Home {
+        color: #FF5400; 
+      }
       .list {
         list-style: none;
         margin-right: 30px;
