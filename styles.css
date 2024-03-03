@@ -11,3 +11,60 @@
       font-weight: <weight>;
       font-style: normal;}
 
+      header{ 
+        width: 1440px;
+        height: 6940px;
+        background: #FFF;
+        padding: 50px 240px;
+      }
+
+      nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .bar1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .bar{
+        display: flex;
+      }
+      .orange{
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+      }
+      .black{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+      }
+      .list {
+        list-style: none;
+        margin-right: 30px;
+        font-family: Mulish;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        
+      }
+      .logo{
+        width: 48px;
+       height: 56.008px;
+       flex-shrink: 0;
+      }
+      .ank {
+        text-decoration: none;
+        color: #424247;
+      }
+      
