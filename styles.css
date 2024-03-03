@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
  
     /* <uniquifier>: Use a unique and descriptive class name
@@ -7,13 +7,11 @@
     
     body {
       font-family: "Mulish", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;}
+      }
 
       header{ 
         width: 1440px;
-        height: 6940px;
+        height: 500px;
         background: #FFF;
         padding: 50px 240px;
       }
@@ -71,4 +69,179 @@
         text-decoration: none;
         color: #424247;
       }
-      
+ .pic{
+  background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+   url('../Images/Group 13 (1) (1).png');
+  width: 1400px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  margin: auto;
+  
+  margin-bottom: 200px;
+  background-size: cover;
+ 
+
+ }    
+ .Explore1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+ } 
+
+ .travel{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+ }
+ .travel2{
+  width: 676px;
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+ }
+ .Explore2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+ }
+ 
+ 
+ .wow{
+  color: rgba(19, 19, 24, 0.50);
+  text-align: left;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 174px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+  text-decoration: none;
+
+ }
+ .wow1{
+  color: rgba(19, 19, 24, 0.50);
+  font-family: Mulish;
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 174px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+
+ }
+
+  #arrow{
+    width: 24px;
+    height: 24px;
+    height: 24px;
+    margin-left: -40px;
+    
+    flex-shrink: 0;
+  }
+ .wow2{
+  color: rgba(19, 19, 24, 0.50);
+  font-family: Mulish;
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 174px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+
+ }
+ #arrow1{
+  width: 24px;
+  height: 24px;
+  margin-left: -40px;
+  flex-shrink: 0;
+
+ }
+ .one-sec{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 1440px;
+  height: 900px;
+  border: #FF5400 solid;
+  justify-content: space-between;
+  
+
+ }
+ .one-title{
+  color: #131318;
+text-align: left;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+ }
+ .mountain, .mount{
+  width: 525px;
+  
+  color: rgba(19, 19, 24, 0.70);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+ }
+ .last-one{
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  width: 530px;
+ }
+
+ .btn-one{
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FF5400;
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+ .img-one{
+  width: 540px;
+height: 550px;
+flex-shrink: 0;
+border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+ }
